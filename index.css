@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0e1023;
+  color: aliceblue;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  display: flex;
+  gap: 4rem;
+}
+
+.sidebar {
+  background-color: #21124b;
+  padding-bottom: 3rem;
+  border-radius: 2rem;
+}
+
+.sidebar div {
+  background-color: #6900e9;
+  padding: 2rem 0 3rem 2rem;
+  border-radius: 2rem;
+}
+
+.sidebar img {
+  width: 10rem;
+  margin-bottom: 4rem;
+  border: 4px solid #ffffff;
+  border-radius: 100%;
+}
+
+.sidebar p {
+  color: #c2a4fe;
+  font-weight: 400;
+}
+
+.sidebar h1 {
+  color: #fdfaff;
+  width: 22rem;
+  font-weight: 300;
+  margin-bottom: 5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0 0rem 2rem;
+}
+
+ul li {
+  list-style: none;
+  color: #635a9b;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: #fdfaff;
+}
+
+.selected {
+  color: #fdfaff;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.container {
+  border-radius: 2rem;
+  width: 25rem;
+}
+
+.icon {
+  text-align: end;
+  padding-right: 1.5rem;
+  overflow: hidden;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  margin-bottom: -2.5rem;
+  height: 7rem;
+}
+
+.icon-work {
+  background-color: #ff8058;
+}
+
+.icon-play {
+  background-color: #2cc3e8;
+}
+
+.icon-study {
+  background-color: #e05f85;
+}
+
+.icon-exercise {
+  background-color: #00de8a;
+}
+
+.icon-exercise img {
+  margin-top: 0 !important;
+}
+
+.icon-social {
+  background-color: #8200d0;
+}
+
+.icon-self-care {
+  background-color: #f5cd57;
+}
+
+.icon img {
+  width: 7rem;
+  margin-top: -1rem;
+}
+
+.container-details {
+  background-color: #21124b;
+  border-radius: 2rem;
+  padding: 3rem;
+  position: relative;
+}
+
+.heading-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.icon-ellipsis {
+  height: 5px;
+}
+
+.heading {
+  font-size: 1.8rem;
+  color: #fcfeff;
+}
+
+.time {
+  font-size: 4rem;
+  color: #fcffff;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.previous-time {
+  color: #e3e3ff;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="/index.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="sidebar">
+        <div>
+          <img src="./images/image-jeremy.png" alt="jeremy" />
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+        <ul class="navbar">
+          <li>Daily</li>
+          <li>Weekly</li>
+          <li>Monthly</li>
+        </ul>
+      </div>
+
+      <section class="main">
+        <div class="work-container container">
+          <div class="icon-work icon">
+            <img src="./images/icon-work.svg" alt="icon-work" />
+          </div>
+          <div class="container-details">
+            <div class="heading-icon">
+              <h2 class="work-container-heading heading">Work</h2>
+              <img
+                class="icon-ellipsis"
+                src="./images/icon-ellipsis.svg"
+                alt="icon-ellipsis"
+              />
+            </div>
+            <p class="work-time time"></p>
+            <p class="work-previous-time previous-time"></p>
+          </div>
+        </div>
+        <div class="play-container container">
+          <div class="icon-play icon">
+            <img src="./images/icon-play.svg" alt="icon-play" />
+          </div>
+          <div class="container-details">
+            <div class="heading-icon">
+              <h2 class="play-container-heading heading">Play</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" />
+            </div>
+            <p class="play-time time"></p>
+            <p class="play-previous-time previous-time"></p>
+          </div>
+        </div>
+        <div class="study-container container">
+          <div class="icon-study icon">
+            <img src="./images/icon-study.svg" alt="icon-study" />
+          </div>
+          <div class="container-details">
+            <div class="heading-icon">
+              <h2 class="study-container-heading heading">Study</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" />
+            </div>
+            <p class="study-time time"></p>
+            <p class="study-previous-time previous-time"></p>
+          </div>
+        </div>
+        <div class="exercise-container container">
+          <div class="icon-exercise icon">
+            <img src="./images/icon-exercise.svg" alt="icon-exercise" />
+          </div>
+          <div class="container-details">
+            <div class="heading-icon">
+              <h2 class="exercise-container-heading heading">Exercise</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" />
+            </div>
+            <p class="exercise-time time"></p>
+            <p class="exercise-previous-time previous-time"></p>
+          </div>
+        </div>
+        <div class="social-container container">
+          <div class="icon-social icon">
+            <img src="./images/icon-social.svg" alt="icon-social" />
+          </div>
+          <div class="container-details">
+            <div class="heading-icon">
+              <h2 class="social-container-heading heading">Social</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" />
+            </div>
+            <p class="social-time time"></p>
+            <p class="social-previous-time previous-time"></p>
+          </div>
+        </div>
+        <div class="self-care-container container">
+          <div class="icon-self-care icon">
+            <img src="./images/icon-self-care.svg" alt="icon-self-care" />
+          </div>
+
+          <div class="container-details">
+            <div class="heading-icon">
+              <h2 class="self-care-container-heading heading">Self Care</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" />
+            </div>
+            <p class="self-care-time time"></p>
+            <p class="self-care-previous-time previous-time"></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
